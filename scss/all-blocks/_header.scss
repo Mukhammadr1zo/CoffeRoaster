@@ -1,0 +1,58 @@
+.site-header {
+    padding-top: 44px;
+    padding-bottom: 45px;
+}
+
+.header-top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    display: inline-block;
+}
+
+.logo:hover {
+    opacity: 0.8;
+}
+
+.logo:active {
+    opacity: 0.6;
+}
+
+
+.logo-img {
+    width: 236px;
+    height: 26px;
+}
+
+.nav-list {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    list-style: none;
+}
+
+.nav-link {
+    font-family: Barlow;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 15px;
+    display: inline-block;
+    padding: 13px 16px;
+    text-decoration: none;
+    font-size: 14px;
+    line-height: 16px;
+    color: #150101;
+    opacity: 0.6;
+}
+
+.nav-link:hover {
+    opacity: 1;
+}
+
+.nav-link:active {
+    opacity: 0.6;
+}

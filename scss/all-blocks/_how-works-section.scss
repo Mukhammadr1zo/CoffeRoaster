@@ -1,0 +1,82 @@
+.how-works-section-header {
+    padding: 0;
+    margin: 0;
+    font-family: Fraunces 9pt;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 32px;
+    color: #83888F;
+    padding-top: 100px;
+    padding-left: 70px;
+    padding-bottom: 40px;
+}
+
+.how-works-section-header::after {
+    content: url(../../images/chiziq.png);
+    display: block;
+    background-size: 791px 31px;
+    background-repeat: no-repeat;
+    margin-top: 50px;
+    margin-bottom: 37px;
+}
+
+.how-works-section-list {
+    list-style: none;
+    margin-left: 20px;
+    padding-bottom: 63px;
+    display: flex;
+    justify-content: space-between;
+    width: 1045px;
+}
+
+.how-works-section-item {
+    width: 285px;
+    
+}
+
+.how-works-item-header {
+    margin: 0;
+    padding: 0;
+    font-family: Fraunces ;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 72px;
+    line-height: 72px;
+    color: #FDD6BA;
+    padding-bottom: 38px;
+}
+
+.how-works-item-header2 {
+    margin: 0;
+    padding: 0;
+    font-family: Fraunces 9pt;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 32px;
+    line-height: 36px;
+    width: 210px;
+    padding-bottom: 42px;
+}
+
+.how-works-item-desc {
+    margin: 0;
+    padding: 0;
+    font-family: Barlow;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+    width: 285px;
+}
+
+.button2 {
+    margin-left: 50px;
+}
+
+.create-plan {
+    color: white;
+    background-color: #2C343E;
+    border-radius: 10px;
+    padding-bottom: 84px;
+}

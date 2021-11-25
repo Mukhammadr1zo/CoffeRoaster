@@ -1,0 +1,164 @@
+.coffee-type {
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.coffee-type-left {
+    width: 255px;
+    padding-top: 84px;
+
+    &__list {
+        list-style: none;
+    }
+
+    &__item {
+        border-bottom: 1px solid #83888F ;
+        padding-bottom: 12px;
+        padding-top: 12px;
+    }
+
+    &__link {
+        text-decoration: none;
+        font-size: 24px;
+        line-height: 32px;
+        font-weight: 900;
+        color: #333D4B;
+        opacity: 0.5;
+    }
+
+    &__span {
+        font-size: 24px;
+        line-height: 32px;
+        color: #0E8784;
+        padding-right: 25px;
+    }
+
+    &__link:hover {
+        opacity: 1;
+    }
+
+    &__link:active {
+        opacity: 0.8;
+        color: #333D4B;
+    }
+}
+
+.cofe-right-list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    padding-top: 64px;
+
+    &__item {
+        margin-bottom: 88px;
+    }
+
+    &__item--radio {
+        min-height: 250px;
+    }
+
+    &__header-box {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &__header {
+        font-weight: 900;
+        font-size: 40px;
+        line-height: 48px;
+        color: #83888F;
+    }
+
+    &__form {
+        display: flex;
+        flex-direction: row;
+    }
+
+    &__item--radio {
+        width: 228px;
+        border-radius: 8px;
+        background-color: #F4F1EB;
+    }
+
+    &__label + &__label {
+        padding-left: 23px;
+    }
+    
+}
+
+.radio-modifier {
+    &__header {
+        margin: 0;
+        padding: 0;
+        padding-top: 32px;
+        padding-left: 28px;
+        font-weight: 900;
+        font-size: 24px;
+        line-height: 32px;
+        color: #333D4B;
+    }
+
+    &__desc {
+        margin: 0;
+        padding: 0;
+        line-height: 26px;
+        color: #333D4B;
+        padding-top: 24px;
+        padding-left: 28px;
+        width: 178px;
+    }
+}
+
+.radio-modifier:hover {
+    background-color: #FDD6BA;
+}
+
+input:checked + .radio-modifier {
+    background-color: #0E8784;
+}
+
+input:checked + .radio-modifier > .radio-modifier__header  {
+    color: white;
+}
+
+input:checked + .radio-modifier > .radio-modifier__desc  {
+    color: white;
+}
+
+.order-summary {
+    background-color: #2C343E;
+    border-radius: 8px;
+    width: 730px;
+    color: white;
+    margin-bottom: 190px;
+
+    .order-summary__header {
+        margin: 0;
+        padding: 0;
+        font-weight: 400;
+        line-height: 26px;
+        text-transform: uppercase;
+        color: #FFFFFF;
+        opacity: 0.5;
+        padding-top: 27px;
+        padding-left: 64px;
+        padding-bottom: 8px;
+    }
+
+    .order-summary__desc {
+        margin: 0;
+        padding: 0;
+        font-weight: 900;
+        font-size: 24px;
+        line-height: 40px;
+        padding-left: 64px;
+        width: 602px;
+        padding-bottom: 27px;
+    }
+
+    .order-summary__span {
+        color: #0E8784;
+    }
+}
+

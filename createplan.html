@@ -1,0 +1,503 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/main.css" />
+    <link rel="shortcut icon" type="image/x-icon" href="images/icon.png" />
+    <title>Create a plan</title>
+  </head>
+  <body>
+    <!-- HEADER -->
+    <header class="site-header">
+      <div class="container">
+        <div class="header-top">
+          <a class="logo" href="#"
+            ><img
+              class="logo-img"
+              src="./images/logo.svg"
+              alt="Coffee Logo"
+              width="236"
+              height="26"
+          /></a>
+          <nav class="header-nav">
+            <ul class="nav-list">
+              <li class="nav-item">
+                <a class="nav-link" href="index.html">HOME</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="about.html" target="blank"
+                  >ABOUT US</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="createplan.html">CREATE YOUR PLAN</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </header>
+    <!-- MAIN -->
+    <main>
+      <!-- CREATE PLAN -->
+      <section>
+        <div class="container plan-main-top">
+          <h1 class="main-header">Create a plan</h1>
+
+          <p class="main-header-desc">
+            Build a subscription plan that best fits your needs. We offer an
+            assortment of the best artisan coffees from around the globe
+            delivered fresh to your door.
+          </p>
+        </div>
+      </section>
+
+      <!-- HOW WORKS SECTION -->
+      <section>
+        <div class="container create-plan">
+          <h3 class="how-works-section-header"></h3>
+
+          <ul class="how-works-section-list">
+            <li class="how-works-section-item">
+              <h3 class="how-works-item-header">01</h3>
+
+              <h4 class="how-works-item-header2">Pick your coffee</h4>
+
+              <p class="how-works-item-desc">
+                Select from our evolving range of artisan coffees. Our beans are
+                ethically sourced and we pay fair prices for them. There are new
+                coffees in all profiles every month for you to try out.
+              </p>
+            </li>
+
+            <li class="how-works-section-item">
+              <h3 class="how-works-item-header">02</h3>
+
+              <h4 class="how-works-item-header2">Choose the frequency</h4>
+
+              <p class="how-works-item-desc">
+                Customize your order frequency, quantity, even your roast style
+                and grind type. Pause, skip or cancel your subscription with no
+                commitment through our online portal.
+              </p>
+            </li>
+
+            <li class="how-works-section-item">
+              <h3 class="how-works-item-header">03</h3>
+
+              <h4 class="how-works-item-header2">Receive and enjoy!</h4>
+
+              <p class="how-works-item-desc">
+                We ship your package within 48 hours, freshly roasted. Sit back
+                and enjoy award-winning world-class coffees curated to provide a
+                distinct tasting experience.
+              </p>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <!-- CHOOSING TYPE OF COFFEE -->
+      <section class="container">
+        <div class="container coffee-type">
+          <div class="coffee-type-left">
+            <ul class="coffee-type-left__list">
+              <li class="coffee-type-left__item">
+                <a href="" class="coffee-type-left__link"
+                  ><span class="coffee-type-left__span">01</span>Preferences</a
+                >
+                <span class="coffee-type-left__line"></span>
+              </li>
+              <li class="coffee-type-left__item">
+                <a href="" class="coffee-type-left__link"
+                  ><span class="coffee-type-left__span">02</span>Bean Type</a
+                >
+                <span class="coffee-type-left__line"></span>
+              </li>
+              <li class="coffee-type-left__item">
+                <a href="" class="coffee-type-left__link"
+                  ><span class="coffee-type-left__span">03</span>Quantity</a
+                >
+                <span class="coffee-type-left__line"></span>
+              </li>
+              <li class="coffee-type-left__item">
+                <a href="" class="coffee-type-left__link"
+                  ><span class="coffee-type-left__span">04</span>Grind Option</a
+                >
+                <span class="coffee-type-left__line"></span>
+              </li>
+              <li class="coffee-type-left__item">
+                <a href="" class="coffee-type-left__link"
+                  ><span class="coffee-type-left__span">05</span>Deliveries</a
+                >
+                <span class="coffee-type-left__line"></span>
+              </li>
+            </ul>
+          </div>
+
+          <ul class="cofe-right-list">
+            <li class="cofe-right-list__item">
+              <div class="cofe-right-list__header-box">
+                <h3 class="cofe-right-list__header">
+                  How do you drink your coffee?
+                </h3>
+                <button class="button-down">
+                  <img src="./images/strelka.png" alt="" />
+                </button>
+              </div>
+              <form
+                class="cofe-right-list__form"
+                action="https://echo.htmlacademy.ru/courses"
+                method="post"
+              >
+                <label class="cofe-right-list__label">
+                  <input
+                    class="visually-hidden cofe-type"
+                    type="radio"
+                    name="user_coffee"
+                    value="capsule"
+                  />
+                  <div class="cofe-right-list__item--radio radio-modifier">
+                    <h4 class="radio-modifier__header">Capsule</h4>
+
+                    <p class="radio-modifier__desc">
+                      Compatible with Nespresso systems and similar brewers
+                    </p>
+                  </div>
+                </label>
+                <label class="cofe-right-list__label">
+                  <input
+                    class="visually-hidden cofe-type"
+                    type="radio"
+                    name="user_coffee"
+                    value="filter"
+                  />
+                  <div class="cofe-right-list__item--radio radio-modifier">
+                    <h4 class="radio-modifier__header">Filter</h4>
+
+                    <p class="radio-modifier__desc">
+                      For pour over or drip methods like Aeropress, Chemex, and
+                      V60
+                    </p>
+                  </div>
+                </label>
+                <label class="cofe-right-list__label">
+                  <input
+                    class="visually-hidden cofe-type"
+                    type="radio"
+                    name="user_coffee"
+                    value="espresso"
+                  />
+                  <div class="cofe-right-list__item--radio radio-modifier">
+                    <h4 class="radio-modifier__header">Espresso</h4>
+
+                    <p class="radio-modifier__desc">
+                      Dense and finely ground beans for an intense, flavorful
+                      experience
+                    </p>
+                  </div>
+                </label>
+              </form>
+            </li>
+
+            <li class="cofe-right-list__item">
+              <div class="cofe-right-list__header-box">
+                <h3 class="cofe-right-list__header">What type of coffee?</h3>
+                <button class="button-down">
+                  <img src="./images/strelka.png" alt="" />
+                </button>
+              </div>
+              <form
+                class="cofe-right-list__form"
+                action="https://echo.htmlacademy.ru/courses"
+                method="post"
+              >
+                <label class="cofe-right-list__label">
+                  <input
+                    class="visually-hidden cofe-type"
+                    type="radio"
+                    name="user_coffee"
+                    value="capsule"
+                  />
+                  <div class="cofe-right-list__item--radio radio-modifier">
+                    <h4 class="radio-modifier__header">Single Orign</h4>
+
+                    <p class="radio-modifier__desc">
+                      Distinct, high quality coffee from a specific family-owned
+                      farm
+                    </p>
+                  </div>
+                </label>
+                <label class="cofe-right-list__label">
+                  <input
+                    class="visually-hidden cofe-type"
+                    type="radio"
+                    name="user_coffee"
+                    value="filter"
+                  />
+                  <div class="cofe-right-list__item--radio radio-modifier">
+                    <h4 class="radio-modifier__header">Decaf</h4>
+
+                    <p class="radio-modifier__desc">
+                      Just like regular coffee, except the caffeine has been
+                      removed
+                    </p>
+                  </div>
+                </label>
+                <label class="cofe-right-list__label">
+                  <input
+                    class="visually-hidden cofe-type"
+                    type="radio"
+                    name="user_coffee"
+                    value="espresso"
+                  />
+                  <div class="cofe-right-list__item--radio radio-modifier">
+                    <h4 class="radio-modifier__header">Blended</h4>
+
+                    <p class="radio-modifier__desc">
+                      Combination of two or three dark roasted beans of organic
+                      coffees
+                    </p>
+                  </div>
+                </label>
+              </form>
+            </li>
+
+            <li class="cofe-right-list__item">
+              <div class="cofe-right-list__header-box">
+                <h3 class="cofe-right-list__header">
+                  How much would you like?
+                </h3>
+                <button class="button-down">
+                  <img src="./images/strelka.png" alt="" />
+                </button>
+              </div>
+              <form
+                class="cofe-right-list__form"
+                action="https://echo.htmlacademy.ru/courses"
+                method="post"
+              >
+                <label class="cofe-right-list__label">
+                  <input
+                    class="visually-hidden cofe-type"
+                    type="radio"
+                    name="user_coffee"
+                    value="capsule"
+                  />
+                  <div class="cofe-right-list__item--radio radio-modifier">
+                    <h4 class="radio-modifier__header">250g</h4>
+
+                    <p class="radio-modifier__desc">
+                      Perfect for the solo drinker. Yields about 12 delicious
+                      cups.
+                    </p>
+                  </div>
+                </label>
+                <label class="cofe-right-list__label">
+                  <input
+                    class="visually-hidden cofe-type"
+                    type="radio"
+                    name="user_coffee"
+                    value="filter"
+                  />
+                  <div class="cofe-right-list__item--radio radio-modifier">
+                    <h4 class="radio-modifier__header">500g</h4>
+
+                    <p class="radio-modifier__desc">
+                      Perfect for the solo drinker. Yields about 40 delicious
+                      cups.
+                    </p>
+                  </div>
+                </label>
+                <label class="cofe-right-list__label">
+                  <input
+                    class="visually-hidden cofe-type"
+                    type="radio"
+                    name="user_coffee"
+                    value="espresso"
+                  />
+                  <div class="cofe-right-list__item--radio radio-modifier">
+                    <h4 class="radio-modifier__header">1000g</h4>
+
+                    <p class="radio-modifier__desc">
+                      Perfect for the solo drinker. Yields about 90 delicious
+                      cups.
+                    </p>
+                  </div>
+                </label>
+              </form>
+            </li>
+
+            <li class="cofe-right-list__item">
+              <div class="cofe-right-list__header-box">
+                <h3 class="cofe-right-list__header">Want us to grind them?</h3>
+                <button class="button-down">
+                  <img src="./images/strelka.png" alt="" />
+                </button>
+              </div>
+              <form
+                class="cofe-right-list__form"
+                action="https://echo.htmlacademy.ru/courses"
+                method="post"
+              >
+                <label class="cofe-right-list__label">
+                  <input
+                    class="visually-hidden cofe-type"
+                    type="radio"
+                    name="user_coffee"
+                    value="capsule"
+                  />
+                  <div class="cofe-right-list__item--radio radio-modifier">
+                    <h4 class="radio-modifier__header">Wholebean</h4>
+
+                    <p class="radio-modifier__desc">
+                      Best choice if you cherish the full sensory experience
+                    </p>
+                  </div>
+                </label>
+                <label class="cofe-right-list__label">
+                  <input
+                    class="visually-hidden cofe-type"
+                    type="radio"
+                    name="user_coffee"
+                    value="filter"
+                  />
+                  <div class="cofe-right-list__item--radio radio-modifier">
+                    <h4 class="radio-modifier__header">Filter</h4>
+
+                    <p class="radio-modifier__desc">
+                      For drip or pour-over coffee methods such as V60 or
+                      Aeropress
+                    </p>
+                  </div>
+                </label>
+                <label class="cofe-right-list__label">
+                  <input
+                    class="visually-hidden cofe-type"
+                    type="radio"
+                    name="user_coffee"
+                    value="espresso"
+                  />
+                  <div class="cofe-right-list__item--radio radio-modifier">
+                    <h4 class="radio-modifier__header">Cafetiére</h4>
+
+                    <p class="radio-modifier__desc">
+                      Course ground beans specially suited for french press
+                      coffee
+                    </p>
+                  </div>
+                </label>
+              </form>
+            </li>
+
+            <li class="cofe-right-list__item">
+              <div class="cofe-right-list__header-box">
+                <h3 class="cofe-right-list__header">
+                  How often should we deliver?
+                </h3>
+                <button class="button-down">
+                  <img src="./images/strelka.png" alt="" />
+                </button>
+              </div>
+              <form
+                class="cofe-right-list__form"
+                action="https://echo.htmlacademy.ru/courses"
+                method="post"
+              >
+                <label class="cofe-right-list__label">
+                  <input
+                    class="visually-hidden cofe-type"
+                    type="radio"
+                    name="user_coffee"
+                    value="capsule"
+                  />
+                  <div class="cofe-right-list__item--radio radio-modifier">
+                    <h4 class="radio-modifier__header">Every week</h4>
+
+                    <p class="radio-modifier__desc">
+                      $7.20 per shipment. Includes free first-class shipping.
+                    </p>
+                  </div>
+                </label>
+                <label class="cofe-right-list__label">
+                  <input
+                    class="visually-hidden cofe-type"
+                    type="radio"
+                    name="user_coffee"
+                    value="filter"
+                  />
+                  <div class="cofe-right-list__item--radio radio-modifier">
+                    <h4 class="radio-modifier__header">Every 2 weeks</h4>
+
+                    <p class="radio-modifier__desc">
+                      $9.60 per shipment. Includes free first-class shipping.
+                    </p>
+                  </div>
+                </label>
+                <label class="cofe-right-list__label">
+                  <input
+                    class="visually-hidden cofe-type"
+                    type="radio"
+                    name="user_coffee"
+                    value="espresso"
+                  />
+                  <div class="cofe-right-list__item--radio radio-modifier">
+                    <h4 class="radio-modifier__header">Every month</h4>
+
+                    <p class="radio-modifier__desc">
+                      $12.00 per shipment. Includes free first-class shipping.
+                    </p>
+                  </div>
+                </label>
+              </form>
+            </li>
+
+            <li>
+                <div class="order-summary">
+                    <h5 class="order-summary__header">Order Summary</h5>
+                    <p class="order-summary__desc">“I drink my coffee as <span class="order-summary__span">Filter</span>, with a <span class="order-summary__span">Decaf</span>  type of bean. <span class="order-summary__span">250g</span>  ground ala <span class="order-summary__span">Cafetiare</span> , sent to me <span class="order-summary__span">Every Week</span> .”</p>
+                </div>
+            </li>
+            
+           </ul>
+        </div>
+
+        
+      </section>
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="container footer-container">
+            <div class="footer-left">
+                <a class="logo footer-logo" href="#">
+                    <img class="logo-img" src="./images/logo-footer.png" alt="Coffee logo" width="236" height="26">
+                </a>
+    
+                <nav class="header-nav">
+                    <ul class="nav-list">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="about.html">About Us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="createplan.html">Create your plan</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+
+            <div class="footer-right">
+                <a class="footer-right-link" href="#"><img src="./images/facebook.png" alt="Facebook logo" width="24" height="24"></a>
+                <a class="footer-right-link" href="#"><img src="./images/twitter.png" alt="Twitter logo" width="24" height="19"></a>
+                <a class="footer-right-link" href="#"><img src="./images/instagram.png" alt="Instagram logo" width="24" height="24"></a>
+                
+            </div>
+        </div>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,23 @@
+
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 32px 85px;
+    background: #2C343E;
+    margin-bottom: 30px;
+}
+
+.footer-left {
+    display: flex;
+}
+
+.footer-logo {
+    margin-right: 103px;
+}
+
+
+.footer-right-link + .footer-right-link {
+    margin-left: 24px;
+}

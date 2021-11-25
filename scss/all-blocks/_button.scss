@@ -1,0 +1,23 @@
+.main-button {
+    background-color: red;
+    border-radius: 3px;
+    padding: 10px;
+    color: white;
+    margin-bottom: 200px;
+    opacity: 0.8;
+}
+
+.button-down {
+    border: none;
+    opacity: 0.6;
+    background-color: white;
+}
+
+.button-down:hover {
+    opacity: 1;
+}
+
+.button-down:active {
+    opacity: 0.8;
+}
+

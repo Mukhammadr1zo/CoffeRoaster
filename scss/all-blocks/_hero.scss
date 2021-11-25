@@ -1,0 +1,83 @@
+.main-top {
+    background-image: url(../images/Bitmap.png);
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    width: 1215px;
+}
+
+.main-header {
+    margin: 0;
+    padding: 0;
+    font-family: Fraunces 9pt;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 72px;
+    line-height: 72px;
+    color: #FEFCF7;
+    width: 600px;
+    padding-top: 100px;
+    padding-left: 86px;
+}
+
+.main-header-desc {
+    margin: 0;
+    padding: 0;
+    font-family: Barlow;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+    color: #FEFCF7;
+    opacity: 0.8;
+    width: 445px;
+    padding-left: 86px;
+    padding-top: 32px;
+    padding-bottom: 56px;
+}
+
+.main-header-button {
+    font-family: Fraunces 9pt;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 25px;  
+    text-align: center;
+    color: #FEFCF7;
+    background: #66D2CF;
+    border-radius: 6px; 
+    padding: 16px 31px;
+    margin-left: 86px;
+    margin-bottom: 125px;
+    border: 1px solid;
+}
+
+.main-header-button:hover {
+    opacity: 0.6;
+}
+
+.main-header-button:active {
+    opacity: 0.8;
+}
+
+
+// ABOUT PAGE
+
+.about-main-top {
+    background-image: url(../../images/background.jpg);
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    width: 1215px;
+    padding-bottom: 84px;
+}
+
+
+// CREATE A PLAN
+
+.plan-main-top {
+    background-image: url(../../images/back-image.png);
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    width: 1215px;
+    padding-bottom: 84px;
+    margin-bottom: 176px;
+}

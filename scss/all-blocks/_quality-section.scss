@@ -1,0 +1,42 @@
+.quality-container {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 84px;
+    background-color: #2C343E;
+    border-radius: 10px;
+    margin-bottom: 84px;
+}
+
+.quality-section-header {
+    font-family: Fraunces 9pt;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 48px;
+    color: #FEFCF7;
+}
+
+.quality-left {
+    margin-top: -30px;
+    padding-left: 85px;
+    padding-bottom: 126px;
+
+}
+
+.quality-section-desc {
+    font-family: Barlow;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+    color: #FEFCF7;
+    width: 540px;
+}
+
+.quality-img {
+    position: absolute;
+    border-radius: 10px;
+    top: -20%;
+    right: 85px;
+}

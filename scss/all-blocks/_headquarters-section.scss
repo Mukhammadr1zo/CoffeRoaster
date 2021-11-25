@@ -1,0 +1,45 @@
+.headquarters-header {
+    padding: 0;
+    margin: 0;
+    font-family: Fraunces 9pt;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 32px;
+    color: #83888F;
+    padding-top: 100px;
+    padding-left: 60px;
+    padding-bottom: 40px;
+}
+
+.headquarter-header {
+    width: 272px;
+    padding-top: 46px;
+}
+
+.headquarters-item-box1::before {
+    content: url(../images/UK.png);
+}
+
+.headquarters-item-box2::before {
+    content: url(../images/Canada.png);
+}
+
+.headquarters-item-box3::before {
+    content: url(../images/Australia.png);
+}
+
+.headquarters-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.headquarter-item {
+    font-family: Barlow;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+    padding-bottom: 5px;
+}
